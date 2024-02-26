@@ -1,0 +1,1 @@
+export { CheckSvg } from './CheckSvg';

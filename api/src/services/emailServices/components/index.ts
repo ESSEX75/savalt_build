@@ -1,0 +1,1 @@
+export { messageEmail } from './messageEmail';

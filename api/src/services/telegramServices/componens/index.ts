@@ -1,0 +1,1 @@
+export { messageTelegram } from './messageTelegram';

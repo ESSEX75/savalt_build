@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@mainComponents/*": [
+        "components/*"
+      ],
+      "@Utils/*": [
+        "utils/*"
+      ],
+      "@Images/*": [
+        "assets/images/*"
+      ],
+      "@Api/*": [
+        "api/*"
+      ],
+    },
+    "outDir": "./build",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "declaration": true
+  },
+  "include": [
+    "./src/*",
+    "./src/**/*",
+    "./jest.setup.ts"
+  ],
+}
